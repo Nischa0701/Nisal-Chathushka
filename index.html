@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Nisal</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/bb35ea3647.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id = "header">
+        <div class="container">
+                <nav>
+                        <img src="Images/logo.jpg" class="logo">
+                        <ul id="sidemenu">
+                                <li><a href="#header">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#services">Services </a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                        </ul>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                         
+                </nav>
+                <div class="header-text">
+                        <p>UI/UX Designer</p>
+                        <h1>Hi, I'm <span>Nisal</span>  <br> From Sri Lanka</h1>
+
+                </div>
+
+        </div>
+
+</div>
+<!----------------about------------>
+
+<div id="about">
+        <div class="container">
+                <div class="row">
+                        <div class="about-col-1">
+                                <img src="Images/user.jpg">
+                        </div>
+                        <div class="about-col-2">
+                                <h1 class="sub-title">About Me</h1>
+                                 <p>Hi, I'm Nisal. I'm a passionate web designer with a keen eye for detail and a love for creating user-friendly digital experiences. With a background in design and development, I specialize in crafting visually appealing and responsive websites that engage visitors and drive results. Whether you need a sleek business site, a personal portfolio, or an interactive online presence, I’m here to bring your vision to life. Let's work together to build something great
+                                       </p>
+                                
+                                <div class="tab-titles">
+                                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                                </div>
+                                <div class="tab-contents active-tab" id="skills">
+                                        <ul>
+                                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                                <li><span>Web Development</span><br>Web app development</li>
+                                                <li><span>App Development</span><br>Building Android/iOS</li>
+                                        </ul>
+                                </div> 
+                                <div class="tab-contents" id="experience">
+                                        <ul>
+                                                <li><span>2024 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                                                <li><span>2022 - 2024</span><br>Team Lead at StarApp LLC.</li>
+                                                
+                                        </ul>
+                                </div> 
+                                <div class="tab-contents" id="education">
+                                        <ul>
+                                                <li><span>2024</span><br>Undergraduate of SLTC Research University</li>
+                                                <li><span>2023</span><br>English Diploma  at British Way English Academy</li>
+                                                
+                                        </ul>
+                                </div>       
+                        </div>
+                </div>
+        </div>
+</div>
+
+<!------------------------Services--------------------------------------->
+
+<div id="services">
+        <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                        <div>
+                                <i class="fa-solid fa-code"></i>
+                                <h2>Web Design</h2>
+                                <p></p>Our web design services are crafted to create visually stunning, highly functional websites tailored to your brand and goals. We prioritize responsive, user-friendly layouts that ensure a seamless experience on any device, from desktops to mobile. Our process begins with understanding your audience and objectives, allowing us to design custom websites that engage users, drive conversions, and elevate your online presence. With a focus on optimized performance, fast load times, and SEO-friendly structures, we build sites that not only look great but also deliver results. Let us design a website that makes a powerful impact and keeps your users coming back.
+                                <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                                <i class="fa-solid fa-crop"></i>
+                                <h2>UI/UX Design</h2>
+                                <p>Our UI/UX Design services focus on creating seamless, intuitive, and visually engaging digital experiences. We work closely with clients to understand their users' needs and business goals, ensuring that every design decision enhances usability and interaction. From wireframing and prototyping to final design implementation, we ensure that each touchpoint is thoughtfully crafted to provide an exceptional user experience. Our team stays up-to-date with the latest design trends and tools to deliver custom solutions that are both functional and aesthetically pleasing, ensuring your product stands out in a competitive market.</p>
+                                <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                                <i class="fa-brands fa-app-store"></i>
+                                <h2>App Design</h2>
+                                <p>Our App Design services are dedicated to crafting user-friendly, visually appealing, and highly functional mobile applications. We combine intuitive user interfaces with seamless user experiences to ensure your app not only looks great but also performs smoothly. From concept to launch, we work with you to design custom app solutions that cater to your target audience's needs and behaviors. Our design process includes thorough research, wireframing, prototyping, and iterative testing to ensure the app delivers exceptional value, engages users, and meets your business objectives. Whether for iOS or Android, we create apps that are easy to navigate and enjoyable to use.</p>
+                                <a href="#">Learn more</a>
+                        </div>
+                </div>
+        </div>
+</div>
+
+<!---------------portfolio------------>
+
+<div id="portfolio">
+        <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                        <div class="work">
+                                <img src="Images/work-1.jpg">
+                                <div class="layer">
+                                        <h3>Social Media App</h3>
+                                        <p>The app connects you the talented people in the world.
+                                                Downloard it from play store.
+                                        </p>
+                                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                                </div>
+                        </div>
+                        <div class="work">
+                                <img src="Images/work-2.jpg">
+                                <div class="layer">
+                                        <h3>Music App</h3>
+                                        <p>The app connects you the talented people in the world.
+                                                Downloard it from play store.
+                                        </p>
+                                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                                </div>
+                        </div>
+                        <div class="work">
+                                <img src="Images/work-3.jpg">
+                                <div class="layer">
+                                        <h3>Online Shopping App</h3>
+                                        <p>The app connects you the talented people in the world.
+                                                Downloard it from play store.
+                                        </p>
+                                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                                </div>
+                        </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+        </div>
+
+
+</div>
+<!-----------contact------------------------------------------------>
+<div id="contact">
+        <div class="container">
+                <div class="row">
+                        <div class="contact-left">
+                                <h1 class="sub-title">Contact Me</h1>
+                                <p> <i class="fa-solid fa-paper-plane"></i> nisalchathushka2@gmail.com</p>
+                                <p> <i class="fa-solid fa-square-phone"></i> 0719876542</p>
+                                <div class="social-icons">
+                                        <a href="http://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                                <a href="Images/my-cv.pdf" download class="btn btn2">Downloard CV</a>
+                        </div>
+                        <div class="contact-right">
+                                <form name="submit-to-google-sheet">
+                                        <input type="text" name="Name" placeholder="Your Name" required>
+                                        <input type="email" name="Email" placeholder="Your email" required>
+                                        <textarea type="text" name="Message " rows="6" placeholder="Your Message"></textarea>
+                                        <button type="submit" class="btn btn2">Submit</button>
+                                </form>
+                                <span id="msg"></span>
+                        </div>
+                </div>
+        </div>
+        <div class="copyright">
+                <p>copyright © Nisal. Made with <i class="fa-solid fa-heart"></i>  by Easy Tutorials</p>
+        </div>
+</div>
+
+
+
+
+<script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+                for(tablink of tablinks){
+                        tablink.classList.remove("active-link");
+                
+                }
+                for(tabcontent of tabcontents){
+                        tabcontent.classList.remove("active-tab");
+                
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+        }
+
+</script>
+
+<script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+                sidemenu.style.right = "0";
+        }
+        function closemenu(){
+                sidemenu.style.right = "-200px";
+        }
+
+</script>
+
+<script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzB7R1aQ3db-v3EUIZMDxf6fk3jTzxbS6c6SLEcZor_Gpw8qt6Vj7qgf1sOXrF2dODY-g/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                        msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+</script>
+
+</body>
+</html>
+
+
+  
